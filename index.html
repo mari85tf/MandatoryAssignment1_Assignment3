@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://unpkg.com/vue@next"></script>
+    <title>Mandatory assignment 1 - Assignment 3</title>
+</head>
+
+<body>
+    <h1>String duplication</h1>
+    <div id="app">
+        Message <input id="inputField" v-model="message" placeholder="Message">
+        How many <input id="inputField" v-model="howMany" placeholder="How many">
+        <button id="button" v-on:click="showResult()" class="btn btn-primary">Do it!</button>
+        <div id="outputField"> {{result}}</div>
+
+
+    </div>
+    <script src="js/index.js"></script>
+
+</body>
+
+</html>
